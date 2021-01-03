@@ -7,7 +7,7 @@ export const AuthActionType = {
   LOGOUT_SUCCESS: "LOGOUT_SUCCESS",
   LOGOUT_FAIL: "LOGOUT_FAIL",
 };
-
+// Login Action
 export const loginAuthAction = (userState, history) => {
   return async (dispatch) => {
     try {
